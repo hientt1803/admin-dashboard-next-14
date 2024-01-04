@@ -1,4 +1,3 @@
-import Pagination from "@/app/ui/dashboard/pagination/pagination";
 import Search from "@/app/ui/dashboard/search/Search";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +5,7 @@ import React from "react";
 import styles from "../../ui/dashboard/users/user.module.css";
 import { fetchUsers } from "@/app/lib/data";
 import { deleteUser } from "@/app/lib/actions";
+import Pagination from "@/app/ui/dashboard/pagination/Pagination";
 
 const UserPage = async ({ searchParams }) => {
   const query = searchParams?.query || "";

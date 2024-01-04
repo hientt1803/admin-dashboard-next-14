@@ -1,6 +1,6 @@
 import { deleteProduct } from "@/app/lib/actions";
 import { fetchProducts } from "@/app/lib/data";
-import Pagination from "@/app/ui/dashboard/pagination/pagination";
+import Pagination from "@/app/ui/dashboard/pagination/Pagination";
 import Search from "@/app/ui/dashboard/search/Search";
 import Image from "next/image";
 import Link from "next/link";
